@@ -66,7 +66,6 @@ std::cout << *ptr;
 ++*ptr;
 ++ptr;
 ++ptr;
-std::cout << *ptr;
 ++ptr;
 --*ptr;
 }
