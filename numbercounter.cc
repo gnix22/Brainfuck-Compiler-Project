@@ -24,7 +24,26 @@ while (*ptr) {
 --ptr;
 --*ptr;
 }
+++ptr;
+++ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
 while (*ptr) {
+++ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+++*ptr;
+--ptr;
 --*ptr;
 }
 ++ptr;
@@ -41,8 +60,13 @@ while (*ptr) {
 ++*ptr;
 while (*ptr) {
 --ptr;
+--ptr;
+--ptr;
 std::cout << *ptr;
 ++*ptr;
+++ptr;
+++ptr;
+std::cout << *ptr;
 ++ptr;
 --*ptr;
 }
